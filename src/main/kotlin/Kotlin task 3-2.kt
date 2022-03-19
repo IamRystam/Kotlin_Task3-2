@@ -1,5 +1,5 @@
-var account = "VK pay"
-var previousPayments = 0
+//var account = "VK pay"
+//var previousPayments = 0
 
 fun main() {
     val plot = payment("Visa", 10000, 10000)
@@ -8,7 +8,7 @@ fun main() {
 
 fun payment(account: String, previousPayments: Int, payRub: Int): Int {
     val pay = payRub * 100
-    var paymentCommission = 0
+    var paymentCommission =
 
     when (account) {
         "VK pay" -> paymentCommission
