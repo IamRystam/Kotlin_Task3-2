@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a5646e7-9eb9-4bd2-bc9b-28501ffd6c02" name="Changes" comment="WithTests">
+    <list default="true" id="1a5646e7-9eb9-4bd2-bc9b-28501ffd6c02" name="Changes" comment="Error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kotlin task 3-2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kotlin task 3-2.kt" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kotlin Task 2-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kotlin Task 3-1" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -67,7 +67,7 @@
       <command value="gradle test jacocoTestReport" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Kotlin_task_3_2Kt">
+  <component name="RunManager" selected="Gradle.Kotlin_task_3_2KtTest">
     <configuration name="Kotlin Task 3-2 [test jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,9 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Kotlin_task_3_2KtTest" />
         <item itemvalue="Kotlin.Kotlin_task_3_2Kt" />
         <item itemvalue="Gradle.Kotlin Task 3-2 [test jacocoTestReport]" />
-        <item itemvalue="Gradle.Kotlin_task_3_2KtTest" />
         <item itemvalue="Gradle.Kotlin Task 3-2 [test jacoco]" />
         <item itemvalue="Gradle.Kotlin_task_3_2KtTest.payment_Mastercard_and_Maestro" />
       </list>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647686370314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Error">
+      <created>1647687699393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647687699393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="WithTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="WithTests" />
+    <MESSAGE value="Error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_Task_3_2$Kotlin_task_3_2KtTest.ic" NAME="Kotlin_task_3_2KtTest Coverage Results" MODIFIED="1647681359527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

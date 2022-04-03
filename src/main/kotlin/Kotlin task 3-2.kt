@@ -1,20 +1,18 @@
-//var account = "VK pay"
-//var previousPayments = 0
-
 fun main() {
-    val plot = payment("Visa", 10000, 10000)
+    val plot = payment(account = "Visa", previousPayments = 10000, payRub = 10000)
     println("Коммисия за перевод составила: $plot копеек ")
 }
 
-fun payment(account: String, previousPayments: Int, payRub: Int): Int {
+fun payment(account: String, previousPayments: Int = 0, payRub: Int): Int {
     val pay = payRub * 100
-    var paymentCommission =
+    var paymentCommission = 0
+    val commissionVisaMir = pay * 0.0075
 
     when (account) {
         "VK pay" -> paymentCommission
 
         "Visa", "Мир" -> {
-            paymentCommission = if (pay * 0.0075 > 3500) ((pay * 0.0075).toInt()) else 3500
+            paymentCommission = if (commissionVisaMir > 3500) commissionVisaMir.toInt() else 3500
 
         }
         "Mastercard", "Maestro" -> {
